@@ -1,0 +1,96 @@
+body {
+    padding: 55px;
+}
+
+.submit {
+    background-color: yellow;
+}
+
+.main_hear {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    flex: none;
+}
+    
+.main_nav {
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    padding: 15px;
+}
+
+.one {
+    background-image: url("RiQoYv_7Brs.png");
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    color: white;
+    line-height: 160%;
+    
+}
+
+.what {
+    color: yellow;
+}
+
+.li {
+    background-color: yellow;
+    padding: 3px;
+    margin: 10px 0;
+    
+}
+
+.two {
+    font-weight: normal;
+    column-count: 2;
+}
+
+.im {
+    border: yellow solid 3px;
+}
+
+.three {
+    column-count: 2;
+    
+}
+
+.four {
+    column-count: 3;
+    
+}
+
+.five {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+
+.img {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    
+}
+
+.main_foot {
+    background-color: yellow;
+    text-align: center;
+    vertical-align: middle;
+
+}
+
+.yellow {
+    background-color: yellow;
+    
+    
+}
+
+.black {
+    background-color: black;
+    color:yellow;
+}
