@@ -1,0 +1,43 @@
+:root{
+    font-family: Roboto;
+}
+
+body {
+    padding: 0 2%;
+    margin: 0 1%;
+}
+
+.im {
+    margin-right: 15%;
+    width: 138px;
+    height: 137px;
+}
+
+.im-in-text {
+    display: none;
+}
+
+.com {
+    color: orange;
+}
+
+.all {
+    display: flex;
+    align-items: center;
+    transition: 1s;
+    text-align: center; 
+}
+
+.describe {
+    margin-top: 0;
+}
+
+.block {
+    display: flex;
+    justify-content: space-around;
+    margin: 5% 2%;
+}
+
+.all:hover {
+    transform: scale(1.2);
+}

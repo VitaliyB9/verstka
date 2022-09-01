@@ -1,0 +1,395 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    font-family: 'Open Sans',sans-serif;
+}
+
+body {
+    background-color: rgb(242, 242, 242);
+}
+
+.allIn {
+    display: flex;
+}
+
+.mainImage {
+    background-image: url("bread.jpg");
+    background-size: cover;
+    width: 700px;
+    height: 770px;
+}
+
+.allText {
+    padding-top: 2%;
+    padding-left: 3%;
+
+}
+
+.muffins {
+    color: red;
+    font-size: 16px;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+.freepik {
+    padding-top: 7%;
+}
+
+.freepik a {
+    text-decoration: none;
+    color: red;
+}
+
+.linkText {
+    padding-top: 7%;
+}
+
+.learnMore {
+    border: 2px solid red;
+    padding: 2% 4%;
+    border-radius: 25px;
+    text-decoration: none;
+    color: red;
+}
+
+.breadAndBakery {
+    display: flex;
+    padding-top: 10%;
+}
+
+.breadAndBakery h4 {
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+.bread {
+    background-image: url("bread.png");
+    background-size: cover;
+    width: 13%;
+    height: 49%;
+}
+
+.bakery {
+    background-image: url("bakery.png");
+    background-size: cover;
+    width: 12%;
+    height: 49%;
+}
+
+.bakeryDiv {
+    padding-left: 3%;
+}
+
+.describe {
+    padding-bottom: 5%;
+}
+
+.more {
+    color: red;
+    text-decoration: none;
+}
+
+.foot {
+    background-color: rgb(51, 51, 51);
+    color: white;
+    padding: 2%;
+}
+
+.footText {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+
+.footLink {
+    display: flex;
+    justify-content: center;
+    padding-top: 4%;
+    font-size: 12px;
+}
+
+@media (max-width: 1597px) {
+
+.bread {
+    width: 17%;
+    height: 49%;
+}
+    
+.bakery {
+    width: 15%;
+    height: 49%;
+}    
+}
+
+@media (max-width: 1514px) {
+
+.bread {
+    width: 19%;
+    height: 51%;
+}
+        
+.bakery {
+    width: 17%;
+    height: 51%;
+}
+}
+
+@media (max-width: 1597px) {
+
+.bread {
+    width: 20%;
+    height: 45%;
+}
+            
+.bakery {
+    width: 19%;
+    height: 45%;
+}
+}
+
+@media (max-width: 1250px) {
+
+.allIn {
+    display: block;
+}
+
+.breadAndBakery {
+    padding-top: 4%;
+    padding-bottom: 5%;
+}
+
+.bakeryDiv {
+    padding-left: 5%;
+}
+
+.bread {
+    width: 15%;
+    height: 55%;
+}
+
+.bakery {
+    width: 13%;
+    height: 55%;
+}
+
+.freepik {
+    padding-top: 1%;
+}
+
+.mainImage {
+    height: 650px;
+    width: 100%;
+}
+
+.mainImageDiv {
+    padding-bottom: 1%;
+}
+
+.linkText {
+    padding-top: 5%;
+}
+}
+
+@media (max-width: 1139px) {
+
+.breadAndBakery {
+    padding-top: 4%;
+    padding-bottom: 7%;
+}
+
+.mainImage {
+    height: 600px;
+}
+
+.bread {
+    width: 17%;
+    height: 55%;
+}
+
+.bakery {
+    width: 15%;
+    height: 57%;
+}
+}
+
+@media (max-width: 1139px) {
+
+.bread {
+    width: 19%;
+    height: 56%;
+}
+    
+.bakery {
+    width: 17%;
+    height: 58%;
+}
+
+.foot {
+    font-size: 16px;
+}
+}
+
+@media (max-width: 951px) {
+
+.bakery {
+    width: 19%;
+    height: 60%;
+}
+
+.bread {
+    width: 20%;
+    height: 58%;
+}
+
+.breadAndBakery {
+    padding-bottom: 8%;
+}
+}
+
+@media (max-width: 855px) {
+
+.breadAndBakery {
+    display: flex;
+    flex-wrap: wrap;
+} 
+
+.bread {
+    width: 10%;
+    height: 42%;
+}
+
+.bakery {
+    width: 10%;
+    height: 45%;
+}
+
+.breadDiv {
+    padding-bottom: 7%;
+}
+
+.bakeryDiv {
+    padding-left: 0%;
+}
+}
+
+@media (max-width: 676px) {
+
+.foot {
+    font-size: 14px;
+}
+}
+
+@media (max-width: 548px) {
+
+.bread {
+    width: 13%;
+    height: 42%;
+}
+    
+.bakery {
+    width: 13%;
+    height: 50%;
+}
+
+.breadDiv {
+    padding-bottom: 11%;
+}
+
+.bakeryDiv {
+    padding-bottom: 6%;
+}
+
+.foot {
+    font-size: 12px;
+}
+}
+
+@media (max-width: 505px) {
+
+.bread {
+    width: 16%;
+    height: 46%;
+}
+
+.bakery {
+    width: 16%;
+    height: 54%;
+}  
+
+.breadDiv {
+    padding-bottom: 13%;
+}
+
+.freepik {
+    padding-top: 2%;
+}
+
+.mainImage {
+    height: 450px;
+}
+}
+
+@media (max-width: 420px) {
+
+.bread {
+    width: 17%;
+    height: 46%;
+}
+    
+.bakery {
+    width: 18%;
+    height: 55%;
+}
+
+.bakeryDiv {
+    padding-bottom: 10%;
+}
+
+.breadDiv {
+    padding-bottom: 15%;
+}
+
+.mainImage {
+    height: 450px;
+}
+}
+
+@media (max-width: 384px) {
+
+.mainImage {
+    height: 400px;
+}
+}
+
+@media (max-width: 360px) {
+
+.bread {
+    width: 20%;
+    height: 46%;
+}
+    
+.bakery {
+    width: 20%;
+    height: 55%;
+}
+}
+
+@media (max-width: 340px) {
+
+.foot {
+    font-size: 10px;
+}
+
+.footLink a {
+    font-size: 10px;
+}
+
+.mainImage {
+    height: 300px;
+}
+}
